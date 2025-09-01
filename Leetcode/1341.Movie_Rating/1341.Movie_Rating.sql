@@ -18,3 +18,4 @@ GROUP BY Movies.movie_id
 ORDER BY AVG(MovieRating.rating) DESC, Movies.title ASC
 LIMIT 1
 )
+
